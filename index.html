@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+  <meta name="description" content="Rahul Ranjan — MS Sustainable Science at IISER Kolkata. Researching atmospheric convection, aerosol & bioaerosol modelling, radiative transfer, and data-driven weather prediction.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rahul Ranjan — Atmospheric & Aerosol Researcher">
+  <meta property="og:description" content="MS Sustainable Science at IISER Kolkata. Atmospheric convection, aerosol modelling, bioaerosol health risk, and numerical weather prediction.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌤️</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Aerosol Particle Animation Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav>
+    <a href="#home" class="nav-logo">Rahul.Ranjan</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <!-- CUSTOMIZE: Link to your hosted CV PDF -->
+      <li><a href="#contact" class="nav-cv">CV ↓</a></li>
+    </ul>
+
+    <!-- Mobile Hamburger -->
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <ul class="mobile-menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <main>
+    <!-- ═══ HERO ═══ -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-header">
+          <div class="hero-name-wrapper">
+            <h1 class="hero-name">Rahul <span>Ranjan</span></h1>
+          </div>
+        </div>
+
+        <p class="hero-bio">
+          MS Sustainable Science student at <strong>IISER Kolkata</strong> with a foundation in Geology.
+          I work at the intersection of atmospheric physics, aerosol science, and machine learning — 
+          building computational pipelines to understand cloud radiative forcing, aerosol–climate interactions,
+          and bioaerosol-mediated health risks.
+        </p>
+
+        <!-- Research Interests — color-coded by domain -->
+        <div class="research-interests">
+          <h3 class="research-interests-title">Research Interests</h3>
+          <div class="interest-tags">
+            <span class="interest-tag interest-tag--atmos">Atmospheric Convection</span>
+            <span class="interest-tag interest-tag--rad">Radiative Transfer</span>
+            <span class="interest-tag interest-tag--aerosol">Aerosol Modelling</span>
+            <span class="interest-tag interest-tag--bio">Bioaerosol Modelling</span>
+            <span class="interest-tag interest-tag--aerosol">Climate–Aerosol Interactions</span>
+            <span class="interest-tag interest-tag--rad">Cloud Radiative Forcing</span>
+            <span class="interest-tag interest-tag--nwp">Data-Driven NWP</span>
+            <span class="interest-tag interest-tag--bio">Air Quality & Health Risk</span>
+          </div>
+        </div>
+
+        <!-- Contact chips -->
+        <div class="contact-section">
+          <p class="contact-label">Find me</p>
+          <div class="hero-contacts">
+            <a href="mailto:rr25mp020@iiserkol.ac.in" class="chip">rr25mp020@iiserkol.ac.in</a>
+            <a href="https://linkedin.com/in/rahul-ranjan022" target="_blank" rel="noopener noreferrer" class="chip">LinkedIn</a>
+            <!-- CUSTOMIZE: Add your GitHub username -->
+            <a href="https://github.com/RahulR-anjan" target="_blank" rel="noopener noreferrer" class="chip">GitHub</a>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="cta-row">
+          <a href="#research" class="btn-primary">View Research</a>
+          <a href="#contact" class="btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="scroll-cue">scroll</div>
+    </section>
+
+    <!-- ═══ EDUCATION ═══ -->
+    <section id="education" class="section">
+      <span class="sec-label">Background</span>
+      <h2 class="sec-heading">Education</h2>
+
+      <div class="exp-list">
+        <div class="exp-item">
+          <div class="exp-meta">
+            <div class="exp-period">2025 – Present</div>
+            <div class="exp-type">Postgraduate</div>
+          </div>
+          <div class="exp-body">
+            <h3 class="exp-role">MS Sustainable Science</h3>
+            <p class="exp-institute">Indian Institute of Science Education and Research (IISER), Kolkata</p>
+          </div>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-meta">
+            <div class="exp-period">2022 – 2025</div>
+            <div class="exp-type">Undergraduate</div>
+          </div>
+          <div class="exp-body">
+            <h3 class="exp-role">B.Sc. Geology</h3>
+            <p class="exp-institute">Patna Science College, Patna, Bihar</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ RESEARCH EXPERIENCE ═══ -->
+    <section id="research" class="section">
+      <span class="sec-label">Experience</span>
+      <h2 class="sec-heading">Research Experience</h2>
+
+      <div class="exp-list">
+        <!-- IITM Internship -->
+        <div class="exp-item">
+          <div class="exp-meta">
+            <div class="exp-period">May 2026 – Jul 2026</div>
+            <div class="exp-type">Summer Intern</div>
+          </div>
+          <div class="exp-body">
+            <h3 class="exp-role">Cloud Radiative Forcing & Aerosol–Climate Interactions</h3>
+            <p class="exp-institute">Indian Institute of Tropical Meteorology (IITM), Pune — Forecasting Research Dept.</p>
+            <ul class="exp-details">
+              <li>Built a multi-reanalysis intercomparison pipeline evaluating Cloud Radiative Forcing (CRF) from CERES EBAF against four reanalyses (ERA5, MERRA-2, JRA-55, NCEP/NCAR) over 2001–2023.</li>
+              <li>Designed a two-stage statistical attribution framework (OLS + Ridge fallback via statsmodels/scikit-learn) linking cloud properties and aerosol loading to CRF biases.</li>
+              <li>Developed a radiative kernel attribution pipeline using the RRTMG scheme to decompose CRF discrepancies into cloud fraction, condensate, and thermodynamic contributions.</li>
+              <li>Trained a PyTorch DNN emulator predicting six CERES CRF flux variables (GroupKFold CV, ENSO-onset-year holdout), achieving Test R² of 0.878–0.934.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="tag">Python</span>
+              <span class="tag">xarray</span>
+              <span class="tag">PyTorch</span>
+              <span class="tag">RRTMG</span>
+              <span class="tag">CERES EBAF</span>
+              <span class="tag">ERA5</span>
+              <span class="tag">cartopy</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bioaerosol Project -->
+        <div class="exp-item">
+          <div class="exp-meta">
+            <div class="exp-period">Jan – May 2026</div>
+            <div class="exp-type">Semester Project</div>
+          </div>
+          <div class="exp-body">
+            <h3 class="exp-role">Bioaerosol PM₁₀ Modelling & Health Risk Assessment</h3>
+            <p class="exp-institute">IISER Kolkata — Supervisor: Dr. Debananda Roy</p>
+            <ul class="exp-details">
+              <li>Conducted active air sampling (liquid impinger, 2.0 L min⁻¹, 150 min) across four contrasting microenvironments with concurrent PM₁₀, temperature, RH, and wind speed monitoring.</li>
+              <li>Quantified culturable bacterial bioaerosol concentrations via dilution plating on LB agar and three selective media (MSA, MacConkey, Blood Agar); identified 6–8 colony morphotypes per site.</li>
+              <li>Found bacterial concentrations at two sites exceeded the WHO indoor benchmark by 56× and 8.7× despite lower indoor PM₁₀ mass — demonstrating PM mass is a poor proxy for biological inhalation risk.</li>
+              <li>Developed a hazard-quotient (HQ) bioaerosol risk model (HQ ≈ 39–60), extending aerosol health-risk methodology to a biological particulate context.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="tag">Bioaerosol Sampling</span>
+              <span class="tag">PM₁₀ Analysis</span>
+              <span class="tag">Microbiology</span>
+              <span class="tag">Risk Modelling</span>
+              <span class="tag">WHO Standards</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Groundwater Dissertation -->
+        <div class="exp-item">
+          <div class="exp-meta">
+            <div class="exp-period">Feb – May 2025</div>
+            <div class="exp-type">Dissertation</div>
+          </div>
+          <div class="exp-body">
+            <h3 class="exp-role">Groundwater Quality Assessment & Spatial Analysis</h3>
+            <p class="exp-institute">Patna Science College, Patna, Bihar</p>
+            <ul class="exp-details">
+              <li>Conducted extensive field sampling across the Patliputra Circle, analyzing mineral concentrations and physical parameters against IS and WHO guidelines to assess health risk.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="tag">QGIS</span>
+              <span class="tag">Water Quality</span>
+              <span class="tag">Spatial Analysis</span>
+              <span class="tag">IS/WHO Compliance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SKILLS ═══ -->
+    <section id="skills" class="section">
+      <span class="sec-label">Toolbox</span>
+      <h2 class="sec-heading">Technical Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Atmospheric & Aerosol Tools</h3>
+          <ul class="skill-list">
+            <li>RRTMG Radiative Transfer</li>
+            <li>CERES EBAF Data</li>
+            <li>ERA5 / MERRA-2 Reanalysis</li>
+            <li>AERMOD Dispersion</li>
+            <li>Bioaerosol Sampling & Analysis</li>
+            <li>PM₁₀ & PM☻Monitoring</li>
+        </div>
+
+        <div class="skill-category">
+          <h3>Data & Programming</h3>
+          <ul class="skill-list">
+            <li>Python</li>
+            <li>xarray · pandas · scipy</li>
+            <li>scikit-learn · statsmodels</li>
+            <li>PyTorch (DNN/emulators)</li>
+            <li>cartopy · Data Visualization</li>
+            <li>QGIS · Spatial Analysis</li>
+            <li>Statistical Modelling</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Lab & Field</h3>
+          <ul class="skill-list">
+            <li>Environmental Field Sampling</li>
+            <li>Active Air Sampling (Impinger)</li>
+            <li>Microbiology Techniques</li>
+            <li>Water Quality Testing</li>
+            <li>Physico-chemical Analysis</li>
+            <li>Sample Preservation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CERTIFICATIONS ═══ -->
+    <section id="certifications" class="section">
+      <span class="sec-label">Learning</span>
+      <h2 class="sec-heading">Workshops & Certifications</h2>
+
+      <div class="exp-list">
+        <div class="exp-item">
+          <div class="exp-meta">
+            <div class="exp-period">Oct 2025</div>
+            <div class="exp-type">Workshop</div>
+          </div>
+          <div class="exp-body">
+            <h3 class="exp-role">Carbon Capture and Storage (CCS)</h3>
+            <p class="exp-institute">IISER Bhopal</p>
+            <p class="exp-desc">CO₂ sequestration techniques and field studies of basalt storage formations.</p>
+          </div>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-meta">
+            <div class="exp-period">Jan 2026</div>
+            <div class="exp-type">E-Learning</div>
+          </div>
+          <div class="exp-body">
+            <h3 class="exp-role">Monitoring Air Pollution Effects</h3>
+            <p class="exp-institute">United Nations Economic Commission for Europe (UNECE)</p>
+            <p class="exp-desc">Monitoring methodologies under international transboundary air pollution frameworks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══ -->
+    <section id="contact" class="section">
+      <span class="sec-label">Connect</span>
+      <h2 class="sec-heading">Get In Touch</h2>
+
+      <div class="contact-content">
+        <p class="contact-text">
+          Open to research collaborations in atmospheric science, aerosol modelling, and climate data analysis.
+          Whether you have a question about my work or want to discuss potential projects — I'd love to hear from you.
+        </p>
+
+        <div class="contact-grid">
+          <a href="mailto:rr25mp020@iiserkol.ac.in" class="contact-card">
+            <span class="contact-card-label">Email</span>
+            <span class="contact-card-value">rr25mp020@iiserkol.ac.in</span>
+          </a>
+          <a href="tel:+919262571908" class="contact-card">
+            <span class="contact-card-label">Phone</span>
+            <span class="contact-card-value">+91 92625 71908</span>
+          </a>
+          <a href="https://linkedin.com/in/rahul-ranjan022" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-card-label">LinkedIn</span>
+            <span class="contact-card-value">rahul-ranjan022</span>
+          </a>
+          <!-- CUSTOMIZE: Add your GitHub username -->
+          <a href="https://github.com/RahulR-anjan" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-card-label">GitHub</span>
+            <span class="contact-card-value">RahulR-anjan</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Rahul Ranjan · Atmospheric & Aerosol Science</p>
+  </footer>
+
+  <!-- Aerosol Particle Simulation -->
+  <script>
+    const canvas = document.getElementById('bg-canvas');
+    const ctx = canvas.getContext('2d');
+    let w, h, particles = [];
+
+    // Atmospheric color palette for particles
+    const particleColors = [
+      { r: 91, g: 163, b: 230 },   // Rayleigh blue — fine mode aerosol
+      { r: 232, g: 142, b: 74 },    // Mie orange — coarse dust
+      { r: 74, g: 222, b: 128 },    // Bio green — bioaerosol
+      { r: 167, g: 139, b: 250 },   // UV purple — nucleation mode
+      { r: 164, g: 193, b: 216 },   // Cloud grey — cloud droplets
+    ];
+
+    function resize() {
+      w = canvas.width = window.innerWidth;
+      h = canvas.height = window.innerHeight;
+    }
+
+    function createParticles() {
+      particles = [];
+      const count = Math.floor((w * h) / 8000);
+      for (let i = 0; i < count; i++) {
+        const color = particleColors[Math.floor(Math.random() * particleColors.length)];
+        // Aerosol size distribution — mostly small, few large (log-normal-ish)
+        const sizeRand = Math.random();
+        const radius = sizeRand < 0.7 ? Math.random() * 1.2 + 0.2 :
+                       sizeRand < 0.92 ? Math.random() * 2 + 1 :
+                       Math.random() * 3 + 2;
+
+        particles.push({
+          x: Math.random() * w,
+          y: Math.random() * h,
+          r: radius,
+          // Smaller particles drift more (Brownian), larger ones settle
+          dx: (Math.random() - 0.5) * (0.2 / radius),
+          dy: radius > 2 ? Math.random() * 0.08 + 0.02 : (Math.random() - 0.5) * 0.12,
+          opacity: Math.random() * 0.4 + 0.08,
+          color: color,
+          // Subtle pulsing for some particles
+          pulse: Math.random() > 0.7,
+          pulsePhase: Math.random() * Math.PI * 2,
+          pulseSpeed: Math.random() * 0.02 + 0.005,
+        });
+      }
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, w, h);
+
+      // Draw a subtle atmospheric gradient on canvas
+      const grad = ctx.createLinearGradient(0, 0, 0, h);
+      grad.addColorStop(0, 'rgba(10,22,40,0)');
+      grad.addColorStop(0.5, 'rgba(19,42,66,0.03)');
+      grad.addColorStop(1, 'rgba(232,142,74,0.02)');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, w, h);
+
+      for (const p of particles) {
+        p.x += p.dx;
+        p.y += p.dy;
+
+        // Wrap around
+        if (p.x < -5) p.x = w + 5;
+        if (p.x > w + 5) p.x = -5;
+        if (p.y < -5) p.y = h + 5;
+        if (p.y > h + 5) p.y = -5;
+
+        let opacity = p.opacity;
+        if (p.pulse) {
+          p.pulsePhase += p.pulseSpeed;
+          opacity += Math.sin(p.pulsePhase) * 0.15;
+          opacity = Math.max(0.05, Math.min(0.6, opacity));
+        }
+
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${p.color.r}, ${p.color.g}, ${p.color.b}, ${opacity})`;
+        ctx.fill();
+
+        // Glow effect for larger particles
+        if (p.r > 1.5) {
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r * 2.5, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(${p.color.r}, ${p.color.g}, ${p.color.b}, ${opacity * 0.12})`;
+          ctx.fill();
+        }
+      }
+      requestAnimationFrame(draw);
+    }
+
+    resize();
+    createParticles();
+    draw();
+    window.addEventListener('resize', () => { resize(); createParticles(); });
+
+    // Hamburger toggle
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      mobileMenu.classList.toggle('active');
+    });
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        mobileMenu.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
