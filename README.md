@@ -1,6 +1,6 @@
 # Rahul Ranjan — Personal Portfolio
 
-A dark, space-themed personal academic portfolio site for GitHub Pages. Inspired by [navonilakarmakar.github.io](https://navonilakarmakar.github.io).
+A dark, space-themed personal academic portfolio site for GitHub Pages
 
 ## ✨ Features
 
@@ -22,8 +22,8 @@ A dark, space-themed personal academic portfolio site for GitHub Pages. Inspired
 
 2. Clone the repo and copy these files into it:
    ```bash
-   git clone https://github.com/<your-username>/<your-username>.github.io.git
-   cd <your-username>.github.io
+   git clone https://github.com/RahulR-anjan/RahulR-anjan.github.io.git
+   cd RahulR-anjan.github.io
    ```
    
    Copy `index.html` and `style.css` into this folder.
@@ -37,7 +37,7 @@ A dark, space-themed personal academic portfolio site for GitHub Pages. Inspired
 
 4. Go to **Settings → Pages** and set the source to `main` branch, `/ (root)`.
 
-5. Your site will be live at `https://<your-username>.github.io` within a few minutes! 🎉
+5. Your site will be live at `https://RahulR-anjan.github.io` within a few minutes! 🎉
 
 ## ✏️ Customize
 
