@@ -16,7 +16,7 @@ A dark, space-themed personal academic portfolio site for GitHub Pages
 
 1. Go to GitHub and create a **new repository** named exactly:
    ```
-   <your-username>.github.io
+   RahulR-anjan.github.io
    ```
    (e.g., `rahulranjan022.github.io`)
 
